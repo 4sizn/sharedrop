@@ -1,2 +1,2 @@
-server: node index.js
+server: nodemon --watch --inspect index.js
 web: ember build --watch
